@@ -1,0 +1,92 @@
+---
+title: "EDS 212 Day3b"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+# create some vectors in R
+
+```{r}
+# vectors must contain elements of the same data type
+
+marmots <- c("blue", "green", 4, "yellow")
+
+# run this line
+
+marmots
+
+# you end up with a character string because you have multiple types of information under marmots-- you have colors and a number. 
+
+class(marmots)
+
+```
+
+```{r}
+
+pika <- c(12.4, 6.8, 2.9, 8.8, 5)
+pika
+class(pika)
+
+
+```
+
+```{r}
+
+bear <- c(20L, 3L, 5L, 18L, 23L)
+bear
+class(bear)
+
+
+```
+
+
+# Vector Math!
+```{r}
+
+ringtail <- c(4.3, 8.9, 2.6, 7.1)
+fox <- c(9.0, 12.5, 5.4, 10.9)
+
+# add them
+
+ringtail+fox
+
+# add them
+
+fox-ringtail
+
+# scalar multiplier
+
+100*ringtail
+
+# dot product
+
+ringtail %*% fox
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
